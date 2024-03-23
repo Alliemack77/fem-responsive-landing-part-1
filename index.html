@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/images/logo-art-deco.jpg">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Javascript -->
+    <script src="./index.js" defer></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+    
+    <title>News Homepage | Frontend Mentor Challenge | CSS {de}Coder</title>
+
+</head>
+<body>
+    <header class="primary-header">
+        <h1 class="sr-only">The W News Homepage</h1>
+        <img class="logo" src="./images/logo.svg" alt="" width="65" height="40">
+        <button class="nav-open" id="open-btn" aria-labelledby="open-nav-label" aria-expanded="false">
+            <img src="./images/icon-menu.svg" alt="" width="40" height="17">
+            <span id="open-nav-label" hidden>open navigation menu</span>
+        </button>
+
+        <nav class="primary-navigation">
+            <div class="nav-menu">
+                <button class="nav-close" id="close-btn" aria-labelledby="close-nav-label">
+                    <img src="./images/icon-menu-close.svg" alt="" width="32" height="31">
+                    <span id="close-nav-label" hidden>close navigation menu</span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">New</a></li>
+                    <li><a href="#">Popular</a></li>
+                    <li><a href="#">Trending</a></li>
+                    <li><a href="#">Categories</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header> 
+
+</body>
+</html>
